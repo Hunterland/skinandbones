@@ -11,13 +11,23 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: gray ;
+    color: gray;
 }
 
 a.navbar-brand {
     color: #ffffff !important;
 }
+
 .navbar-toggler {
-   background-color: white !important;
-   background-color: transparent none;
-} 
+    background-color: white !important;
+    background-color: transparent none;
+}
+
+/* BOTAO AREA DO CLIENTE */
+button.btn.btn-danger {
+    background-color: #C21E6F;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}

@@ -62,10 +62,6 @@ button.btn.btn-danger:hover {
 
 /* SESSÃO DE APRESENTAÇÃO */
 
-.jumbotron {
-  padding-top: 5rem;
-}
-
 h1 {
   color: #ffffff;
 }
@@ -75,3 +71,4 @@ p {
   font-style: normal;
   color: #D9D9D9;
 }
+

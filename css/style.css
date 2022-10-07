@@ -54,14 +54,14 @@ a.navbar-brand {
   background-color: #e8608c;
 }
 
-/* POSIﾃ�ﾃグ DOS LINKS */
+/* POSICAO DOS LINKS */
 .navbar-collapse {
   flex-grow: 0 !important;
 }
 
 /* ************************ */
 
-/* SESSﾃグ DE APRESENTAﾃ�ﾃグ */
+/* SESSﾃグ DE APRESENTAﾇﾃO */
 
 h1 {
   color: #ffffff;
@@ -74,7 +74,7 @@ p {
   color: #D9D9D9;
 }
 
-/* SESSﾃグ DE ACESSIBILIDADE */
+/* SESSﾃO DE ACESSIBILIDADE */
 
 .about-us {
   background-color: black;
@@ -115,12 +115,12 @@ p {
   margin-right: 15px;
 }
 
-/* SESSﾃグ WELLNESS E TECNOLOGIA */
+/* SESSﾃO WELLNESS E TECNOLOGIA */
 .py-5 {
   padding-top: 0 !important;
 }
 
-/* SESSﾃグ DE GALERIA */
+/* SESSﾃO DE GALERIA */
 .card {
   border-radius: 17px;
 }

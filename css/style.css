@@ -123,6 +123,15 @@ p {
   padding-top: 0 !important;
 }
 
+/* SESSÃO DE GALERIA */
+.card {
+  border-radius: 17px;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+
 /* RESPONSIVIDADE */
 
 

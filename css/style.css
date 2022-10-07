@@ -43,10 +43,7 @@ a.navbar-brand {
 }
 
 /* MENU HAMBURGER */
-.navbar-toggler {
-  background-color: white !important;
-  background-color: transparent none;
-}
+
 
 /* BOTAO AREA DO CLIENTE */
 .btn.btn-danger {

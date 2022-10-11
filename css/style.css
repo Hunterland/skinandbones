@@ -117,7 +117,8 @@ p {
 
 /* SESSÃO WELLNESS E TECNOLOGIA */
 .py-5 {
-  padding-top: 0 !important;
+  padding-top: 4rem!important;
+  padding-bottom: 6rem!important;
 }
 
 /* SESSÃO DE GALERIA */
@@ -127,6 +128,19 @@ p {
 .card-text {
   display: flex;
   justify-content: center;
+}
+
+/* SESSÃO DE DEMONSTRATIVO 1 E 2 */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.mb-4 {
+  margin-bottom: -1.5rem !important;
 }
 
 
@@ -170,6 +184,11 @@ p {
 }
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 
 @media (min-width: 576px) {}

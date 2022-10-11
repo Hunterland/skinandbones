@@ -15,6 +15,6 @@ O projeto foi desenvolvido com o intuito acadêmico para obter nota nas atividad
 
 ## ✒️ Link do Projeto
 
-* **<a href="#">skinandbones</a>**
+* **<a href="https://hunterland.github.io/skinandbones/">acessar</a>**
 
 ![skinandbones](./img/skinandbones_layout.png)

@@ -139,6 +139,10 @@ p {
   user-select: none;
 }
 
+#mais {
+  display: none;
+}
+
 .mb-4 {
   margin-bottom: -1.5rem !important;
 }

@@ -93,12 +93,12 @@ p {
   text-align: center;
 }
 
-.about-title {
+/* .about-title {
   font-size: 17px;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-}
+} */
 
 #about-list {
   list-style: none;
@@ -139,6 +139,7 @@ p {
   user-select: none;
 }
 
+/* EXPANDIR E RETRAIR TEXTO */
 #mais {
   display: none;
 }

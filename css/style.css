@@ -139,6 +139,15 @@ p {
   user-select: none;
 }
 
+/* SESSÃO DE NEWS LETTER */
+.input-group {
+  width: 80% !important;
+}
+
+.input-group .btn {
+  width: 26% !important;
+}
+
 /* EXPANDIR E RETRAIR TEXTO */
 #mais {
   display: none;

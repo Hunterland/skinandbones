@@ -61,7 +61,7 @@ a.navbar-brand {
 
 /* ************************ */
 
-/* SESSÃƒO DE APRESENTAÇÃO */
+/* SESSÃƒO DE APRESENTAï¿½ï¿½O */
 
 h1 {
   color: #ffffff;
@@ -74,7 +74,7 @@ p {
   color: #D9D9D9;
 }
 
-/* SESSÃO DE ACESSIBILIDADE */
+/* SESSï¿½O DE ACESSIBILIDADE */
 
 .about-us {
   background-color: black;
@@ -115,13 +115,13 @@ p {
   margin-right: 15px;
 }
 
-/* SESSÃO WELLNESS E TECNOLOGIA */
+/* SESSï¿½O WELLNESS E TECNOLOGIA */
 .py-5 {
   padding-top: 4rem!important;
   padding-bottom: 6rem!important;
 }
 
-/* SESSÃO DE GALERIA */
+/* SESSï¿½O DE GALERIA */
 .card {
   border-radius: 17px;
 }
@@ -130,7 +130,7 @@ p {
   justify-content: center;
 }
 
-/* SESSÃO DE DEMONSTRATIVO 1 E 2 */
+/* SESSï¿½O DE DEMONSTRATIVO 1 E 2 */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -139,7 +139,7 @@ p {
   user-select: none;
 }
 
-/* SESSÃO DE NEWS LETTER */
+/* SESSï¿½O DE NEWS LETTER */
 .input-group {
   width: 80% !important;
 }
@@ -151,6 +151,9 @@ p {
 
 /* EXPANDIR E RETRAIR TEXTO */
 #mais {
+  display: none;
+}
+#mais1 {
   display: none;
 }
 

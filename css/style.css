@@ -61,7 +61,7 @@ a.navbar-brand {
 
 /* ************************ */
 
-/* SESSÃO DE APRESENTA��O */
+/* SESSÃO DE APRESENTA  O */
 
 h1 {
   color: #ffffff;
@@ -74,7 +74,7 @@ p {
   color: #D9D9D9;
 }
 
-/* SESS�O DE ACESSIBILIDADE */
+/* SESS O DE ACESSIBILIDADE */
 
 .about-us {
   background-color: black;
@@ -102,8 +102,10 @@ p {
 
 #about-list {
   list-style: none;
-  padding-left: 65px;
+  padding-left: 43px;
+  margin-top: 8rem;
 }
+
 
 #about-list li {
   line-height: 30px;
@@ -115,12 +117,12 @@ p {
   margin-right: 15px;
 }
 
-/* SESS�O WELLNESS E TECNOLOGIA */
+/* SESS O WELLNESS E TECNOLOGIA */
 
 
 
 
-/* SESS�O DE GALERIA */
+/* SESS O DE GALERIA */
 .card {
   border-radius: 17px;
 }
@@ -129,7 +131,7 @@ p {
   justify-content: center;
 }
 
-/* SESS�O DE DEMONSTRATIVO 1 E 2 */
+/* SESS O DE DEMONSTRATIVO 1 E 2 */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -138,7 +140,7 @@ p {
   user-select: none;
 }
 
-/* SESS�O DE NEWS LETTER */
+/* SESS O DE NEWS LETTER */
 .input-group {
   width: 80% !important;
 }
@@ -177,6 +179,28 @@ p {
   position:absolute;
 }
 
+  /* REFINAMENTO DE TELA */
+.btnNow{
+  margin-right: 21rem !important;
+}
+
+.im-fluid {
+  padding: 0rem 3rem 3rem;
+}
+.img-T {
+  padding: 0rem 4rem;
+}
+.demo{
+   margin-top: 3rem !important;
+}
+.btn-ctt{
+  margin-top: 3rem;
+  position: relative;
+}
+.txt-top{
+  margin-bottom: 2rem;
+  position: relative;
+}
 
 
 
@@ -215,6 +239,7 @@ p {
   .img-hero {
     display: none;
   }
+
 }
 
 
@@ -223,6 +248,3 @@ p {
     font-size: 3.5rem;
   }
 }
-
-
-@media (min-width: 576px) {}

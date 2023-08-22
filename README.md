@@ -1,20 +1,52 @@
 # Skin and Bones
 
-O projeto foi desenvolvido com o intuito acadêmico para obter nota nas atividade de extensão.
+O projeto "Skin and Bones" foi desenvolvido com fins acadêmicos, com o objetivo de obter notas nas atividades de extensão.
 
+## Tecnologias Utilizadas
 
-## 🛠️ Construído com
+O projeto foi construído utilizando as seguintes tecnologias:
 
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="50" height="50"/>
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"  width="50" height="50"/>
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/>
-<img align="left" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50" height="50"/>
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- PHP
+- Docker
+- Mysql
 
-<br>
-<br>
+## Link do Projeto
 
-## ✒️ Link do Projeto
-
-* **<a href="https://hunterland.github.io/skinandbones/">acessar</a>**
+Você pode acessar o projeto através do seguinte link: [Acessar o Projeto](https://hunterland.github.io/skinandbones/)
 
 ![skinandbones](./img/skinandbones_layout.png)
+
+## Passo a Passo para Execução
+
+Siga os passos abaixo para levantar a aplicação:
+
+1. Clone este repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/seu-usuario/skinandbones.git
+```
+
+2. Navegue até a pasta do projeto:
+
+```bash
+cd skinandbones
+```
+
+3. Crie as pastas necessárias:
+
+   - `app`: Aqui você pode colocar os arquivos da aplicação.
+   - `dbdata`: Esta pasta pode ser usada para armazenar dados do banco de dados.
+   
+4. Crie ou atualize o arquivo `Dockerfile` conforme suas necessidades.
+
+5. Atualize o arquivo `README.md` de acordo com informações do seu projeto.
+
+6. Crie ou atualize o arquivo `docker-compose.yml` para definir a configuração do Docker.
+
+7. Se necessário, adicione o arquivo `skin_and_bones.sql` contendo o script para criar o banco de dados.
+
+Após seguir esses passos, você terá configurado a estrutura básica do projeto "Skin and Bones" em seu ambiente local. Certifique-se de ajustar os detalhes conforme suas necessidades específicas.

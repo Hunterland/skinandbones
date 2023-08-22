@@ -16,37 +16,28 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 ## Link do Projeto
 
-Você pode acessar o projeto através do seguinte link: [Acessar o Projeto](https://hunterland.github.io/skinandbones/)
-
 ![skinandbones](./app/src/pages/client/img/skinandbones_layout.png)
 
-## Passo a Passo para Execução
 
-Siga os passos abaixo para levantar a aplicação:
+## Passo a Passo para Execução com XAMPP
 
-1. Clone este repositório para o seu ambiente local:
+Siga os passos abaixo para levantar a aplicação utilizando o XAMPP:
 
-```bash
-git clone https://github.com/seu-usuario/skinandbones.git
-```
-
-2. Navegue até a pasta do projeto:
+1. Clone este repositório para a pasta `htdocs` do XAMPP:
 
 ```bash
-cd skinandbones
+git clone https://github.com/seu-usuario/skinandbones.git C:\xampp\htdocs\skinandbones
 ```
 
-3. Crie as pastas necessárias:
+2. Abra o painel de controle do XAMPP e inicie os módulos Apache e MySQL.
 
-   - `app`: Aqui você pode colocar os arquivos da aplicação.
-   - `dbdata`: Esta pasta pode ser usada para armazenar dados do banco de dados.
-   
-4. Crie ou atualize o arquivo `Dockerfile` conforme suas necessidades.
+3. Abra um navegador da web e acesse `http://localhost/skinandbones`.
 
-5. Atualize o arquivo `README.md` de acordo com informações do seu projeto.
+4. Para acessar o banco de dados, abra o phpMyAdmin através do link `http://localhost/phpmyadmin`.
 
-6. Crie ou atualize o arquivo `docker-compose.yml` para definir a configuração do Docker.
+5. Se necessário, você pode criar um novo banco de dados e importar o arquivo `skin_and_bones.sql` fornecido.
 
-7. Se necessário, adicione o arquivo `skin_and_bones.sql` contendo o script para criar o banco de dados.
+6. Explore o projeto em seu navegador e faça as modificações necessárias.
 
-Após seguir esses passos, você terá configurado a estrutura básica do projeto "Skin and Bones" em seu ambiente local. Certifique-se de ajustar os detalhes conforme suas necessidades específicas.
+
+

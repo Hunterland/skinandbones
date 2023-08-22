@@ -1,0 +1,53 @@
+body {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.btn-add{
+   
+    margin-top: 15px;
+
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   
+}
+
+.inputs label{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    color: #FFF;
+}
+
+.inputs input{
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.inputs select{
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.manager-user{
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
+
+body{
+    background: #21384d;
+}

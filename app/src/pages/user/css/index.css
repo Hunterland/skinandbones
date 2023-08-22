@@ -1,0 +1,111 @@
+body{
+    background: #201b2c;
+}
+
+.table th{
+    color: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table td{
+    color: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.thead{
+    background-color: rgb(9, 43, 61);
+    color: #FFF;
+}
+
+.manager-user{
+    margin: 25px 0 25px 0;
+    text-align: center;
+}
+
+.banner-thunnar {
+    width: 6%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
+
+.navbar{
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+}
+
+.footer p{
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.form-exit {
+    position: relative;
+    width: 100%;
+   
+    
+}
+.form-exit input{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.card_page p{
+ border-radius: 10px;
+ background-color: rgb(27, 72, 111);
+ height: 30px;
+ width: 250px;
+ padding: 4px 25px ;
+ color: #FFF;
+ margin-bottom: 5px;
+}
+
+.send_file{
+    margin-bottom: 40px;
+}
+
+.inputs_global{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   
+}
+
+.inputs_global label{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.inputs_global input{
+    /* width: 50%; */
+    
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-title{
+    text-align: center;
+}
+
+body{
+    background: #21384d;
+}
+
+

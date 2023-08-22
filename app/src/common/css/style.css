@@ -1,0 +1,325 @@
+/* ESTILO PERSONALIZADO */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+/* MENU NAVBAR */
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #c21e6f;
+  width: 0%;
+  content: "";
+  height: 4px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+a.navbar-brand {
+  color: #ffffff !important;
+}
+
+/* MENU HAMBURGER */
+
+/* BOTAO AREA DO CLIENTE */
+.btn.btn-danger {
+  background-color: #c21e6f;
+}
+
+.btn.btn-danger:hover {
+  background-color: #e8608c;
+}
+
+/* POSICAO DOS LINKS */
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+/* ************************ */
+
+/* SESSÃO DE APRESENTA��O */
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  font-family: "Arial";
+  justify-content: center;
+  font-style: normal;
+  color: #d9d9d9;
+}
+
+/* SESS�O DE ACESSIBILIDADE */
+
+#about-area {
+  background-color: #000;
+}
+
+#about-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+#about-list li{
+  line-height: 30px;
+  color: white;
+
+}
+
+/* SESS�O WELLNESS E TECNOLOGIA */
+.py-5 {
+  padding-top: 4rem !important;
+  padding-bottom: 6rem !important;
+}
+
+/* SESS�O DE GALERIA */
+.card {
+  border-radius: 17px;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+
+/* SESS�O DE DEMONSTRATIVO 1 E 2 */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* SESS�O DE NEWS LETTER */
+.input-group {
+  width: 80% !important;
+}
+
+.input-group .btn {
+  width: 26% !important;
+}
+
+
+/* EXPANDIR E RETRAIR TEXTO */
+#mais {
+  display: none;
+}
+#mais1 {
+  display: none;
+}
+
+.mb-4 {
+  margin-bottom: -1.5rem !important;
+}
+
+/* FOOTER */
+
+/* RESPONSIVE MAP */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+/* REFINAMENTO DE TELA */
+.btnNow {
+  margin-right: 21rem !important;
+}
+
+.im-fluid {
+  padding: 0rem 3rem 3rem;
+}
+.img-T {
+  padding: 0rem 4rem;
+}
+.demo {
+  margin-top: 3rem !important;
+}
+.btn-ctt {
+  margin-top: 1rem;
+  position: relative;
+}
+.txt-top {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .about-us {
+    margin-top: -6%;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-hero {
+    display: none;
+  }
+  a.nav-link {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .imgSkull {
+    width: 5rem !important;
+    height: 3rem !important;
+  }
+
+  a.nav-link {
+    text-align: center !important;
+  }
+}
+
+/* @media(max-width: 376px){
+ 
+ 
+  
+} */
+
+/*********************************/
+
+.wellcome {
+  background: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+}
+
+.wellcome h4 {
+  position: absolute;
+  margin-top: 0;
+  right: 50px;
+  color: #ffffff;
+}
+
+/* alert */
+
+.alert {
+  background: #ffdb9b;
+  padding: 20px 40px;
+  min-width: 420px;
+  max-width: 600px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  overflow: hidden;
+  border-radius: 4px;
+  border-left: 10px solid #fff202;
+}
+
+.alert_case {
+  position: relative;
+  width: 100%;
+  /* background: #02ff02; */
+}
+
+.alert.show {
+  animation: show_slide 1s ease forwards;
+}
+
+@keyframes show_slide {
+  0% {
+    transform: translateX(200%);
+  }
+
+  40% {
+    transform: translateX(150%);
+  }
+
+  80% {
+    transform: translateX(160%);
+  }
+
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.alert.hide {
+  display: none;
+}
+
+.alert .fa-exclamation-circle {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ce8500;
+  font-size: 30px;
+}
+
+.alert .msg {
+  padding: 0 20px;
+  font-size: 18px;
+  color: #ce8500;
+  margin-left: 25px;
+}
+
+.alert .close-btn {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffd080;
+  padding: 20px 18px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #ffc766;
+}
+
+.close-btn .fa-times {
+  color: #ce8500;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+

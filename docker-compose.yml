@@ -1,0 +1,50 @@
+version: '3'
+
+services:
+  sab-php:
+    build:
+      context: .
+      #dockerfile: .docker/Dockerfile
+    container_name: sab-php
+    ports:
+      - 983:80 # Troque a porta caso seja necessário
+    restart: always
+    environment:
+      TZ: "America/Manaus"
+    volumes:
+      - ./app:/var/www/html
+    links:
+      - sab-db
+
+  sab-db:
+    image: mysql:5.7
+    container_name: sab-db
+    ports:
+      - 3309:3306
+    restart: always
+    environment:
+      TZ: "America/Manaus"
+      MYSQL_DATABASE: skin_and_bones
+      MYSQL_USER: rmv
+      MYSQL_PASSWORD: 12345
+      MYSQL_ROOT_PASSWORD: KQ2WkzxiD4
+    volumes:
+      - ./dbdata:/var/lib/mysql
+      
+  sab-phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: sab-phpmyadmin
+    links:
+      - sab-db
+    environment:
+      PMA_HOST: sab-db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8785:80
+
+#networks:
+#   default:
+#     external: 
+#       name: servers

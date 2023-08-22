@@ -14,11 +14,6 @@ O projeto foi construído utilizando as seguintes tecnologias:
 - Docker
 - Mysql
 
-## Link do Projeto
-
-![skinandbones](./app/src/pages/client/img/skinandbones_layout.png)
-
-
 ## Passo a Passo para Execução com XAMPP
 
 Siga os passos abaixo para levantar a aplicação utilizando o XAMPP:
@@ -38,6 +33,12 @@ git clone https://github.com/seu-usuario/skinandbones.git C:\xampp\htdocs\skinan
 5. Se necessário, você pode criar um novo banco de dados e importar o arquivo `skin_and_bones.sql` fornecido.
 
 6. Explore o projeto em seu navegador e faça as modificações necessárias.
+
+
+## Link do Projeto
+
+![skinandbones](./app/src/pages/client/img/skinandbones_layout.png)
+
 
 
 

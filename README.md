@@ -18,7 +18,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 Você pode acessar o projeto através do seguinte link: [Acessar o Projeto](https://hunterland.github.io/skinandbones/)
 
-![skinandbones](./img/skinandbones_layout.png)
+![skinandbones](./sab/app/src/pages/client/img/skinandbones_layout.png)
 
 ## Passo a Passo para Execução
 

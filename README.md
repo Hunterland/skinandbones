@@ -14,23 +14,36 @@ O projeto foi construído utilizando as seguintes tecnologias:
 - Docker
 - Mysql
 
-## Passo a Passo para Execução com XAMPP
+## Passo a Passo para Execução com Docker
 
-Siga os passos abaixo para levantar a aplicação utilizando o XAMPP:
+Siga os passos abaixo para executar a aplicação utilizando Docker:
 
-1. Clone este repositório para a pasta `htdocs` do XAMPP:
+1. Certifique-se de ter o Docker instalado em seu sistema. Você pode baixá-lo e instalá-lo a 
+partir do site oficial: https://www.docker.com/get-started.
+
+2. Abra um terminal ou prompt de comando.
+
+3. Clone o repositório para uma pasta em seu sistema:
 
 ```bash
-git clone https://github.com/seu-usuario/skinandbones.git C:\xampp\htdocs\skinandbones
+git clone https://github.com/seu-usuario/skinandbones.git
 ```
 
-2. Abra o painel de controle do XAMPP e inicie os módulos Apache e MySQL.
+4. Navegue até a pasta clonada:
 
-3. Abra um navegador da web e acesse `http://localhost/skinandbones`.
+```bash
+cd skinandbones
+```
 
-4. Para acessar o banco de dados, abra o phpMyAdmin através do link `http://localhost/phpmyadmin`.
+5. Abra em alguma ferramenta IDE padrão (vscode)
 
-5. Se necessário, você pode criar um novo banco de dados e importar o arquivo `skin_and_bones.sql` fornecido.
+6. Execute o terminal na pasta do projeto, e dê o seguinte comando:
+
+```bash
+docker-compose up -d
+```
+
+7. Se necessário, você pode criar um novo banco de dados e importar o arquivo `skin_and_bones.sql` fornecido.
 
 6. Explore o projeto em seu navegador e faça as modificações necessárias.
 

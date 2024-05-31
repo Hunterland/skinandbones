@@ -52,7 +52,7 @@ docker-compose up -d
 6. Explore o projeto em seu navegador e faça as modificações necessárias.
 
 
-## Link do Projeto
+## Layout do Projeto
 
 ![skinandbones](./app/src/pages/client/img/skinandbones_layout.png)
 
